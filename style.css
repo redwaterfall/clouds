@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+body{
+    margin:0px;
+}
+.topContainer{
+    width:100%;
+    height:130vh;
+    background: url('image/cloudsTop.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cloudTop{
+    width: 100%;
+    height:10%;
+    bottom: 0;
+    margin-bottom: -21em;
+    object-fit: fill;
+    overflow: hidden;
+    position: absolute;
+}
+.mountainContainer{
+    width:100%;
+    height:100vh;
+    background: url('image/rough-horn-2146181_1920.jpg');
+    background-size: cover;
+}
+.mountainContainer > h1{
+    margin-left: 35%;
+}
+#cloudTopMoutains{
+    width: 100%;
+    height:100%;
+    top: 0;
+    object-fit: fill;
+    overflow: hidden;
+}
+
+#cloudOne{
+    width: 100%;
+    height:100%;
+    object-fit: fill;
+    overflow: hidden;
+    bottom: 0;
+}
+#cloudTwo{
+    width: 100%;
+    height:100%;
+    top:0;
+    margin-bottom: -17em;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.middleContainer{
+    width:100vw;
+    height:100vh;
+    background: white;
+    background-size: contain;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middleContainer > h1 {
+    color:black;
+}
+.bottomContainer{
+    width:100%;
+    height:140vh;
+    background: url('image/boat-lake.jpg');
+    background-size: cover;
+}
+h1{
+    font-size: 5vw;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+#lakeQuote{
+    position: absolute;
+    margin-top: -570px;
+    opacity: 0;
+    left: 35%;
+    background-position-y: center;
+    
+}
